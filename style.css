@@ -26,3 +26,11 @@
 .para3{
     display: none;
 }
+
+.work img{
+    transform: scale(0.98);
+}
+
+.work img:hover{
+    transform: scale(1.15);
+}
