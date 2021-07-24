@@ -1,1 +1,6 @@
-
+.header {
+    background-image: url(images/h_img.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    }
