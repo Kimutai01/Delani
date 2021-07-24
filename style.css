@@ -4,3 +4,9 @@
     height: 100vh;
     background-position: center;
     }
+
+    .services {
+        background-image: url(images/s_image.jpg);
+        height: 100vh;
+        background-position: center;
+        }
