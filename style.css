@@ -3,15 +3,26 @@
     background-size: cover;
     height: 100vh;
     background-position: center;
-    }
+}
 
-    .services {
-        background-image: url(images/s_image.jpg);
-        height: 100vh;
-        background-position: center;
-        }
-        .contact {
-            background-image: url(images/c_image.jpg);
-            height: 100vh;
-            background-position: center;
-            }
+.services {
+    background-image: url(images/s_image.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.contact {
+    background-image: url(images/c_image.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.para1{
+    display: none;
+}
+
+.para2{
+    display: none;
+}
+
+.para3{
+    display: none;
+}
