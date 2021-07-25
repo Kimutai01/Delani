@@ -34,3 +34,9 @@
 .work img:hover{
     transform: scale(1.15);
 }
+
+.form-control{
+    opacity: 0.1;
+    display: block;
+    border: white;
+}
