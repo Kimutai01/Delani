@@ -27,16 +27,53 @@
     display: none;
 }
 
-.work img{
+/* .work img{
     transform: scale(0.98);
 }
 
 .work img:hover{
     transform: scale(1.15);
-}
+} */
 
 .form-control{
     opacity: 0.1;
     display: block;
     border: white;
 }
+.card1{
+    display: none;
+}
+
+.card2{
+    display: none;
+}
+
+.card3{
+    display: none;
+}
+
+.card4{
+    display: none;
+}
+
+.card5{
+    display: none;
+}
+
+.card6{
+    display: none;
+}
+
+.card1{
+    display: none;
+}
+
+.card7{
+    display: none;
+}
+
+.card8{
+    display: none;
+}
+
+

@@ -31,5 +31,44 @@ $(document).ready(function(){
         $('.para3').hide()
         $('#icon3').show()
     })
+    $('.work1 img').hover(function(){
+        $('.work1 img').css("transform", "scale(0.98)");
+    })
+    $('.work1 img').hover(function(){
+        $('.card1').toggle()
+    })
+
+    $('.work2 img').hover(function(){
+        $('.card2').toggle()
+    })
+
+    $('.work3 img').hover(function(){
+        $('.card3').toggle()
+    })
+
+    $('.work4 img').hover(function(){
+        $('.card4').toggle()
+    })
+
+    $('.work5 img').hover(function(){
+        $('.card5').toggle()
+    })
+
+    $('.work6 img').hover(function(){
+        $('.card6').toggle()
+    })
+
+    $('.work7 img').hover(function(){
+        $('.card7').toggle()
+    })
+
+    $('.work8 img').hover(function(){
+        $('.card8').toggle()
+    })
 
 });
+
+   
+
+
+
