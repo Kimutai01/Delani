@@ -69,6 +69,15 @@ $(document).ready(function(){
 });
 
    
+function nam(){
+    let theName=document.getElementById('name').value
+    let theEmail=document.getElementById('email').value
+    if(theName==''){
+        alert('please enter your name!!')
+    }else{
+    alert(theName + 'we have recieved your message.Thank you for reaching out to us.**')
+    }
+}
 
 
 
