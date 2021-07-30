@@ -11,7 +11,7 @@ it is a website for a fictional studio company called Delani studio. It has some
 ## Setup/Installation Requirements
  Fork or clone the repository
  ```
-$ git clone https://github.com/Kimutai01/Delani-studio.git
+$ git clone https://github.com/Kimutai01/Delani.git
  ```
 * open with your favorite editor
 * open with liveServer
