@@ -72,10 +72,55 @@ $(document).ready(function () {
 function nam() {
     let theName = document.getElementById('name').value
     let theEmail = document.getElementById('email').value
-    if (theName == '') {
-        alert('please enter your name!!')
+    let message = document.getElementById('comments').value
+    if (theName == '' && message == '' && theEmail == '') {
+        swal({
+            title: "error!",
+            text: "Please enter name, message and email",
+            icon: "error",
+        });
+    } else if (theName == '' && message == '') {
+        swal({
+            title: "error!",
+            text: "Please enter name and message",
+            icon: "error",
+        });
+    } else if (message == '' && theEmail == '') {
+        swal({
+            title: "error!",
+            text: "Please enter, email and message",
+            icon: "error",
+        });
+    } else if (theName == '' && theEmail == '') {
+        swal({
+            title: "error!",
+            text: "Please enter name and email",
+            icon: "error",
+        });
+    } else if (theName == '') {
+        swal({
+            title: "error!",
+            text: "Please enter name",
+            icon: "error",
+        });
+    } else if (message == '') {
+        swal({
+            title: "error!",
+            text: "Please enter  message",
+            icon: "error",
+        });
+    } else if (theEmail == '') {
+        swal({
+            title: "error!",
+            text: "Please enter email",
+            icon: "error",
+        });
     } else {
-        alert(theName + 'we have recieved your message.Thank you for reaching out to us.**')
+        swal({
+            title: "Success!",
+            text: theName +' ' +' we have recieved your message.Thank you for reaching out to us.**',
+            icon: "success",
+        });
     }
 }
 
